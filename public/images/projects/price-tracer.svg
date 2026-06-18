@@ -1,0 +1,60 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ptBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06201D"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="lineG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10D9C4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="areaG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10D9C4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#10D9C4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#ptBg)"/>
+
+  <circle cx="500" cy="100" r="90" fill="#10D9C4" opacity="0.08"/>
+  <circle cx="70" cy="300" r="70" fill="#3B82F6" opacity="0.08"/>
+
+  <g stroke="#1C2233" stroke-width="1">
+    <line x1="80" y1="100" x2="80" y2="300"/>
+    <line x1="80" y1="300" x2="520" y2="300"/>
+  </g>
+
+  <path d="M80 150 L520 150" stroke="#1C2233" stroke-width="1" stroke-dasharray="4 5"/>
+  <path d="M80 220 L520 220" stroke="#1C2233" stroke-width="1" stroke-dasharray="4 5"/>
+
+  <path d="M80 130 L150 160 L220 145 L290 200 L360 215 L430 260 L500 280 L500 300 L80 300 Z"
+        fill="url(#areaG)"/>
+  <path d="M80 130 L150 160 L220 145 L290 200 L360 215 L430 260 L500 280"
+        fill="none" stroke="url(#lineG)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="#0B1220" stroke="#10D9C4" stroke-width="2.5">
+    <circle cx="80" cy="130" r="5"/>
+    <circle cx="220" cy="145" r="5"/>
+    <circle cx="360" cy="215" r="5"/>
+    <circle cx="500" cy="280" r="5"/>
+  </g>
+
+  <g transform="translate(478, 268)">
+    <circle r="26" fill="#0B1220" stroke="#3B82F6" stroke-width="2"/>
+    <path d="M-8 -10 C-8 -16 -3 -18 0 -18 C3 -18 8 -16 8 -10 L8 -2 L11 4 L-11 4 L-8 -2 Z"
+          fill="none" stroke="#3B82F6" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M-3 5 C-3 8 3 8 3 5" fill="none" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="9" cy="-14" r="4" fill="#10D9C4"/>
+  </g>
+
+  <g transform="translate(105, 165)">
+    <rect x="-22" y="0" width="44" height="34" rx="4" fill="#0B1220" stroke="#7C3AED" stroke-width="2"/>
+    <path d="M-14 0 L-14 -10 C-14 -18 -7 -24 0 -24 C7 -24 14 -18 14 -10 L14 0"
+          fill="none" stroke="#7C3AED" stroke-width="2.5"/>
+    <circle cx="0" cy="17" r="3" fill="#7C3AED"/>
+  </g>
+
+  <text x="80" y="335" font-family="monospace" font-size="13" fill="#8b93a7">Amazon</text>
+  <text x="430" y="335" font-family="monospace" font-size="13" fill="#8b93a7">Flipkart</text>
+  <text x="225" y="335" font-family="monospace" font-size="13" fill="#10D9C4">price drop detected ↓</text>
+</svg>

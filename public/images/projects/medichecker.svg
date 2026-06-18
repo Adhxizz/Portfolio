@@ -1,0 +1,64 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="medBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#150C28"/>
+      <stop offset="100%" stop-color="#1B1238"/>
+    </linearGradient>
+    <linearGradient id="bottleG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="capG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1E4FA8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#medBg)"/>
+
+  <circle cx="500" cy="90" r="90" fill="#7C3AED" opacity="0.1"/>
+  <circle cx="80" cy="320" r="70" fill="#3B82F6" opacity="0.1"/>
+
+  <g opacity="0.5" stroke="#10D9C4" stroke-width="1.5" fill="none">
+    <path d="M40 80 L80 80 L95 50 L110 110 L125 80 L160 80"/>
+  </g>
+  <g opacity="0.35" stroke="#3B82F6" stroke-width="1.5" fill="none">
+    <path d="M440 320 L470 320 L482 300 L494 340 L506 320 L560 320"/>
+  </g>
+
+  <g transform="translate(225, 120)">
+    <rect x="0" y="40" width="150" height="170" rx="22" fill="url(#bottleG)"/>
+    <rect x="35" y="0" width="80" height="48" rx="8" fill="url(#capG)"/>
+    <rect x="35" y="40" width="80" height="14" fill="#0B1220" opacity="0.25"/>
+
+    <g fill="#0B1220" opacity="0.12">
+      <rect x="10" y="20" width="6" height="20" rx="3"/>
+      <rect x="22" y="14" width="6" height="26" rx="3"/>
+    </g>
+
+    <rect x="20" y="90" width="110" height="80" rx="10" fill="#150C28" opacity="0.85"/>
+    <g stroke="#10D9C4" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M32 132 L52 132 L60 110 L72 152 L82 132 L118 132"/>
+    </g>
+    <circle cx="75" cy="151" r="3.5" fill="#10D9C4"/>
+  </g>
+
+  <g transform="translate(140, 250)">
+    <circle r="26" fill="#0F172A" stroke="#3B82F6" stroke-width="2"/>
+    <rect x="-10" y="-2.5" width="20" height="5" rx="2.5" fill="#3B82F6"/>
+    <rect x="-2.5" y="-10" width="5" height="20" rx="2.5" fill="#3B82F6"/>
+  </g>
+
+  <g transform="translate(440, 230)">
+    <circle r="20" fill="#0F172A" stroke="#10D9C4" stroke-width="2"/>
+    <rect x="-8" y="-2" width="16" height="4" rx="2" fill="#10D9C4"/>
+    <rect x="-2" y="-8" width="4" height="16" rx="2" fill="#10D9C4"/>
+  </g>
+
+  <g opacity="0.7">
+    <circle cx="180" cy="90" r="3" fill="#A78BFA"/>
+    <circle cx="420" cy="130" r="2.5" fill="#3B82F6"/>
+    <circle cx="460" cy="90" r="2" fill="#10D9C4"/>
+    <circle cx="120" cy="160" r="2" fill="#3B82F6"/>
+  </g>
+</svg>
