@@ -8,7 +8,7 @@ export const personal = {
   email: "ambrishathi007@gmail.com",
   phone: "+91 9150301030",
   resumeUrl:
-    "https://drive.google.com/file/d/10uOasWn6jo4aYKs4_JtoiJ0MI9xFJTkq/view",
+    "https://drive.google.com/file/d/1UgJOGOzQkVAStRIJuNzy8xiW91bTmIka/view",
   avatar: "/images/profile.jpeg",
 };
 
